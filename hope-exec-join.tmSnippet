@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>content</key>
+<string>Hope.join([
+  -> ${1:_function} ${2:args},
+  -> ${3:_function} ${4:args},
+  -> ${5:_function} ${6:args}
+  ]).then (errors,value) ->
+    console.error "[join]:", error if error
+</string>
+<key>name</key>
+<string>Promise Join</string>
+<key>scope</key>
+<string>source.coffee</string>
+<key>tabTrigger</key>
+<string>Hope-exec-join</string>
+</dict>
+</plist>

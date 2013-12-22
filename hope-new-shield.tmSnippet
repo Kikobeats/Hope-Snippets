@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>content</key>
+<string>${1:_function} = (promise, ${2:value}) ->
+  promise.done ${3:"ERROR Message"},${2:value} if ${4:condition}
+  promise.done null, ${5:true}
+</string>
+<key>name</key>
+<string>new shield Promise</string>
+<key>scope</key>
+<string>source.coffee</string>
+<key>tabTrigger</key>
+<string>Hope-new-shield</string>
+</dict>
+</plist>
