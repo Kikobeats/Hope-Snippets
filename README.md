@@ -6,7 +6,7 @@ Hope Coffescript snippets for ST2
 
 [Hope](https://github.com/soyjavi/hope) Snippets (javascript/nodejs promises pattern library) for Sublime Text 2.  
  
-  ![image](http://i.imgur.com/CuYIUrt.png)  
+  ![image](http://i.imgur.com/Wg6mXXG.png)  
   
    
  More about Hope:  
