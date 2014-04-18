@@ -11,7 +11,7 @@
     console.error "[join]:", error if error
 </string>
 <key>name</key>
-<string>Promise Join</string>
+<string>exec join Promise</string>
 <key>scope</key>
 <string>source.coffee</string>
 <key>tabTrigger</key>

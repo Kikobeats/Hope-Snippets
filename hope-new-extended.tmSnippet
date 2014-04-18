@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>content</key>
+<string>${1:_function} = (${2:req, res}) ->
+  promise = new Hope.Promise()
+  User.find(req.query).exec (err, users) ->
+    promise.done Error.notFound(res), users if users.length == 0
+    promise.done err, users if err
+    promise.done null, users
+  promise
+</string>
+<key>name</key>
+<string>new extended Promise</string>
+<key>scope</key>
+<string>source.coffee</string>
+<key>tabTrigger</key>
+<string>Hope-new-extended</string>
+</dict>
+</plist>
+
+

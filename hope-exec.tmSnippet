@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 <key>content</key>
-<string>${1:_function}(${2:args}).then (error, value) ->
-  console.error "${3:ERROR Message}", if error
+<string>${1:function}(${2:args}).then (error, value) ->
+  ${3:console.error "ERROR Message"}, if error else value
 </string>
 <key>name</key>
-<string>Exec Basic Promise</string>
+<string>exec basic Promise</string>
 <key>scope</key>
 <string>source.coffee</string>
 <key>tabTrigger</key>

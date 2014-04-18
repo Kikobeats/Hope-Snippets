@@ -11,7 +11,7 @@
     console.error "[shield]:", error if error
 </string>
 <key>name</key>
-<string>Promise shield</string>
+<string>exec shield Promise </string>
 <key>scope</key>
 <string>source.coffee</string>
 <key>tabTrigger</key>
