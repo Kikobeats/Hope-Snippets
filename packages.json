@@ -1,0 +1,19 @@
+{
+    "schema_version": "2.0",
+    "packages": [
+        {
+            "name": "Hope",
+            "description": "Coffeescript snippets for Hope promises library",
+            "author": "Kiko Beats",
+            "homepage": "https://github.com/Kikobeats/Hope-Snippets",
+            "labels": ["coffeescript", "snippets", "pattern", "nodejs"],
+            "readme": "https://raw.githubusercontent.com/Kikobeats/Hope-Snippets/master/README.md",
+            "releases" : [
+                {
+                    "sublime_text": "*",
+                    "details": "https://github.com/Kikobeats/Hope-Snippets/tags"
+                }
+            ]
+        }
+    ]
+}

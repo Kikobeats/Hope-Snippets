@@ -1,5 +1,5 @@
 {
-  "url": "https://github.com/kikobeats/Hope-Snippets",
-  "version": "1.1",
-  "description": "Snippets for Hope promises library"
+  "url": "https://raw.githubusercontent.com/Kikobeats/Hope-Snippets",
+  "description": "Coffeescript snippets for Hope promises library",
+  "version": "1.0.1"
 }

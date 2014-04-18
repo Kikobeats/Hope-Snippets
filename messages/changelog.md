@@ -1,0 +1,13 @@
+# v1.0.1
+
+---
+
+* Added support for Sublime Text 3
+* Add new extended snippet
+* Delete new short snippet
+
+# v1.0.0
+
+---
+
+* First release
