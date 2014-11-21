@@ -4,7 +4,7 @@
 <dict>
 <key>content</key>
 <string>promise = new Hope.Promise()
-promise.done ${1:"ERROR Message"},value if ${2:condition}
+promise.done ${1:"ERROR Message"}, value if ${2:condition}
 promise.done null, ${3:true}
 </string>
 <key>name</key>
